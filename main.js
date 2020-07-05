@@ -31,3 +31,38 @@ function functionA() {
 }
 
 functionA();
+
+function functionB() {
+    console.log("我是函式0__0")
+}
+
+functionB();
+
+function addTen(number){
+    number += 10;
+
+    console.log("加十" + number);
+}
+
+addTen(7);
+addTen(100);
+
+function mul(a , b) {
+    console.log("數字相乘的結果"+ (a * b));
+}
+
+mul(999, 7);
+
+
+var car = {
+    brand:"BMW",
+    cc:2000,
+    color: "gold",
+    drive: function(){
+        console.log("de ja vu");
+    }
+}
+
+console.log("汽車的牌子:" + car.brand);
+
+car.drive();
