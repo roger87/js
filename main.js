@@ -66,3 +66,52 @@ var car = {
 console.log("汽車的牌子:" + car.brand);
 
 car.drive();
+
+var box2 = document.getElementById("box2");
+
+box2.onclick = () => {
+    console.log("點擊!");
+}
+
+box2.onmouseenter = () =>{
+    console.log("滑入!");
+}
+
+box2.onmouseleave = () => {
+    console.log("滑出!");
+}
+
+var numbers = [10, 100, 40, 9];
+
+console.log("陣列第三筆資料:" + numbers[2]);
+
+numbers[0] = 999;
+
+console.log("陣列第一筆資料:" + numbers[0]);
+
+console.log("陣列的數量:" + numbers.length);
+
+var testA = 100;
+var testB = 50;
+
+console.log(testA < testB);
+
+var testC = 7;
+var testD = "7";
+
+console.log("==的結果:" + (testC == testD));
+console.log("===的結果:" + (testC === testD));
+
+var testE = true;
+
+console.log("顛倒:" + !testE);
+
+console.log(true && true);
+console.log(true && false);
+console.log(true && false);
+console.log(false && false);
+
+console.log(true || true);
+console.log(true || false);
+console.log(true || false);
+console.log(false || false);
