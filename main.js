@@ -140,3 +140,21 @@ score.onchange = () => {
         result.innerText = "分數:" + s + "-被當";
     }
 }
+
+for (let i = 0; i < 10; i++){
+    console.log("迴圈:" + i);
+}
+
+var products = ["冰美式","卡布奇諾","摩卡","焦糖瑪奇朵"];
+
+for (let i = 2; i < products.length; i++) {
+    console.log(products[i]);
+}
+
+var ps = document.getElementsByClassName("proudct");
+
+console.log(ps);
+
+for (let i = 0; i < ps.length; i++) {
+    ps[i].innerText = products[i];
+}
