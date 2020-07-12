@@ -158,3 +158,24 @@ console.log(ps);
 for (let i = 0; i < ps.length; i++) {
     ps[i].innerText = products[i];
 }
+
+const pi = 3.14159;
+
+var countA = 10;
+var countA = 7;
+
+{
+    let countA = 5;
+    console.log(countA);
+}
+
+console.log(countA);
+
+
+let countC = 55;
+
+{
+    countC = 33;
+}
+
+console.log(countC);
